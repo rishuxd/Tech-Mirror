@@ -219,4 +219,18 @@ div.card:hover {
 .newsquora {
   text-shadow: 2px 2px 5px whitesmoke;
 }
+#password-span
+{
+  color:white;
+  display: block;
+}
+#singup-btn
+{
+  display: block;
+}
+#btn-span
+{
+  display: block;
+  color:white;
+}
 /*# sourceMappingURL=styles.css.map */
