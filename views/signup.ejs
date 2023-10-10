@@ -10,11 +10,15 @@
 <body class="signup">
  <div class="signup-form">
    <h1 class="newsquora">SignUp to News Quora!</h1>
-   <form action="/signup" method="POST">
+   <form action="/signup" method="POST" id="singup-form">
      <input type="firstname" class="input-box" name="name" placeholder=" Name" required>
      <input type="email" class="input-box" name="email" placeholder="Email" required>
-     <button type="submit" class="signup-btn">SignUp</button>
+     <input type="password" class="input-box" name="password" placeholder="password" id = "password"required value="">
+     <span id="password-span"></span>
+     <button type="submit" class="signup-btn" id="signup-btn">SignUp</button>
+     <span id="btn-span"></span>
    </form>
  </div>
+ <script src="./js/signup.js"></script>
 </body>
 </html>
